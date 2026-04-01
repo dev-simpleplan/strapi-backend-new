@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_shared_home_tab_preview_items",
+  "info": {
+    "displayName": "home.tab-preview-item"
+  },
+  "options": {},
+  "attributes": {
+    "tab_label": {
+      "type": "string"
+    },
+    "tab_key": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "image_alt": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

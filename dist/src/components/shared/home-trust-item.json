@@ -1,0 +1,17 @@
+{
+    "collectionName": "components_shared_home_trust_items",
+    "info": {
+        "displayName": "home.trust-item",
+        "icon": "attachment"
+    },
+    "options": {},
+    "attributes": {
+        "label": {
+            "type": "string"
+        },
+        "icon_name": {
+            "type": "string"
+        }
+    },
+    "config": {}
+}

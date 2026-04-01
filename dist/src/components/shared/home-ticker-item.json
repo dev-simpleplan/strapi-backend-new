@@ -1,0 +1,13 @@
+{
+    "collectionName": "components_shared_home_ticker_items",
+    "info": {
+        "displayName": "home.ticker-item"
+    },
+    "options": {},
+    "attributes": {
+        "label": {
+            "type": "string"
+        }
+    },
+    "config": {}
+}

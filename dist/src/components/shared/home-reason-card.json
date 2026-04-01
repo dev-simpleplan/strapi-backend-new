@@ -1,0 +1,20 @@
+{
+    "collectionName": "components_shared_home_reason_cards",
+    "info": {
+        "displayName": "home.reason-card",
+        "icon": "clock"
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string"
+        },
+        "description": {
+            "type": "text"
+        },
+        "icon_name": {
+            "type": "string"
+        }
+    },
+    "config": {}
+}

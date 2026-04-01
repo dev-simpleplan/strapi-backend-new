@@ -1,0 +1,17 @@
+{
+    "collectionName": "components_shared_home_footer_links",
+    "info": {
+        "displayName": "home.footer-link",
+        "icon": "check"
+    },
+    "options": {},
+    "attributes": {
+        "text": {
+            "type": "string"
+        },
+        "url": {
+            "type": "string"
+        }
+    },
+    "config": {}
+}

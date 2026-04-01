@@ -1,0 +1,185 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_pages",
+  "info": {
+    "singularName": "home-page",
+    "pluralName": "home-pages",
+    "displayName": "Home Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero_badge": {
+      "type": "string"
+    },
+    "hero_heading": {
+      "type": "string"
+    },
+    "hero_description": {
+      "type": "text"
+    },
+    "hero_primary_cta": {
+      "type": "component",
+      "component": "shared.link-item",
+      "repeatable": false
+    },
+    "hero_secondary_cta": {
+      "type": "component",
+      "component": "shared.link-item",
+      "repeatable": false
+    },
+    "hero_image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "hero_image_alt": {
+      "type": "string"
+    },
+    "hero_social_proof_value": {
+      "type": "string"
+    },
+    "hero_social_proof_label": {
+      "type": "string"
+    },
+    "hero_ticker_items": {
+      "type": "component",
+      "component": "shared.home-ticker-item",
+      "repeatable": true
+    },
+    "trustbar_heading": {
+      "type": "string"
+    },
+    "trustbar_items": {
+      "type": "component",
+      "component": "shared.home-trust-item",
+      "repeatable": true
+    },
+    "why_heading": {
+      "type": "string"
+    },
+    "why_description": {
+      "type": "text"
+    },
+    "why_chart_label": {
+      "type": "string"
+    },
+    "why_chart_note": {
+      "type": "text"
+    },
+    "why_chart_values": {
+      "type": "json"
+    },
+    "why_donut_label": {
+      "type": "string"
+    },
+    "why_donut_value": {
+      "type": "string"
+    },
+    "why_donut_note": {
+      "type": "text"
+    },
+    "why_reason_cards": {
+      "type": "component",
+      "component": "shared.home-reason-card",
+      "repeatable": true
+    },
+    "everywhere_heading": {
+      "type": "string"
+    },
+    "everywhere_subheading": {
+      "type": "string"
+    },
+    "everywhere_description": {
+      "type": "text"
+    },
+    "everywhere_tabs": {
+      "type": "component",
+      "component": "shared.home-tab-preview-item",
+      "repeatable": true
+    },
+    "features_heading": {
+      "type": "string"
+    },
+    "features_description": {
+      "type": "text"
+    },
+    "features_cards": {
+      "type": "component",
+      "component": "shared.home-bento-card",
+      "repeatable": true
+    },
+    "customization_badge": {
+      "type": "string"
+    },
+    "customization_heading": {
+      "type": "string"
+    },
+    "customization_description": {
+      "type": "text"
+    },
+    "customization_image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "customization_image_alt": {
+      "type": "string"
+    },
+    "reviews_heading": {
+      "type": "string"
+    },
+    "reviews_items": {
+      "type": "component",
+      "component": "shared.home-review-item",
+      "repeatable": true
+    },
+    "home_faq_heading": {
+      "type": "string"
+    },
+    "home_faq_button_text": {
+      "type": "string"
+    },
+    "home_faq_button_link": {
+      "type": "string"
+    },
+    "footer_cta_heading": {
+      "type": "string"
+    },
+    "footer_cta_primary": {
+      "type": "component",
+      "component": "shared.link-item",
+      "repeatable": false
+    },
+    "footer_cta_secondary": {
+      "type": "component",
+      "component": "shared.link-item",
+      "repeatable": false
+    },
+    "footer_links": {
+      "type": "component",
+      "component": "shared.home-footer-link",
+      "repeatable": true
+    },
+    "footer_copyright": {
+      "type": "string"
+    },
+    "seo": {
+      "type": "component",
+      "component": "shared.seo",
+      "repeatable": false
+    }
+  }
+}

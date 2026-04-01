@@ -1,0 +1,40 @@
+{
+    "kind": "singleType",
+    "collectionName": "navbars",
+    "info": {
+        "singularName": "navbar",
+        "pluralName": "navbars",
+        "displayName": "Navbar"
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "logo": {
+            "type": "media",
+            "multiple": false,
+            "allowedTypes": [
+                "images",
+                "files",
+                "videos",
+                "audios"
+            ]
+        },
+        "menu_items": {
+            "type": "component",
+            "component": "shared.link-item",
+            "repeatable": true
+        },
+        "book_demo_cta": {
+            "type": "component",
+            "component": "shared.link-item",
+            "repeatable": false
+        },
+        "install_app_cta": {
+            "type": "component",
+            "component": "shared.link-item",
+            "repeatable": false
+        }
+    }
+}

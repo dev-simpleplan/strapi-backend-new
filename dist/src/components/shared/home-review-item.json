@@ -1,0 +1,23 @@
+{
+    "collectionName": "components_shared_home_review_items",
+    "info": {
+        "displayName": "home.review-item",
+        "icon": "cog"
+    },
+    "options": {},
+    "attributes": {
+        "quote": {
+            "type": "text"
+        },
+        "name": {
+            "type": "string"
+        },
+        "role": {
+            "type": "string"
+        },
+        "stars": {
+            "type": "integer"
+        }
+    },
+    "config": {}
+}

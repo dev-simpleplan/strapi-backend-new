@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_shared_home_bento_cards",
+  "info": {
+    "displayName": "home.bento-card",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "image_alt": {
+      "type": "string"
+    },
+    "icon_name": {
+      "type": "string"
+    },
+    "featured_wide": {
+      "type": "integer"
+    }
+  },
+  "config": {}
+}
