@@ -1,6 +1,7 @@
+// src/utils/create-admin.ts
 'use strict';
 
-module.exports = async (strapi) => {
+export default async (strapi: any) => {
   const adminUser = {
     firstname: 'Anand',
     lastname: 'Pandey',

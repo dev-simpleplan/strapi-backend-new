@@ -1,8 +1,10 @@
+// src/index.ts
+import createAdmin from './utils/create-admin';
+
 export default {
   register() {},
 
   async bootstrap({ strapi }) {
-    const createAdmin = require('./utils/create-admin');
     await createAdmin(strapi);
   },
 };
