@@ -2,7 +2,7 @@ export default {
   register() {},
 
   async bootstrap({ strapi }) {
-    const createAdmin = require('../scripts/create-admin');
+    const createAdmin = require('./utils/create-admin');
     await createAdmin(strapi);
   },
 };

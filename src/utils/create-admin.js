@@ -1,13 +1,13 @@
 'use strict';
 
-module.exports = async () => {
+module.exports = async (strapi) => {
   const adminUser = {
     firstname: 'Anand',
     lastname: 'Pandey',
     email: 'anandpandey.simpleplan@gmail.com',
     password: 'Admin@12345',
     isActive: true,
-    roles: [1], // super admin
+    roles: [1],
   };
 
   const existing = await strapi.db.query('admin::user').findOne({
