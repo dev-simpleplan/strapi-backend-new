@@ -51,7 +51,7 @@
       "type": "date"
     },
     "read_time": {
-      "type": "integer"
+      "type": "string"
     },
     "featured": {
       "type": "boolean"
